@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21480D6B177AA5FF00186127 /* SAMBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 218865F9177AA1B10054F3B5 /* SAMBadgeView.m */; };
+		21480D6C177AA64000186127 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218865AF177AA09F0054F3B5 /* CoreGraphics.framework */; };
+		21480D6F177AA93000186127 /* SAMBadgeViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21480D6E177AA93000186127 /* SAMBadgeViewDemoViewController.m */; };
+		218865AC177AA09F0054F3B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218865AB177AA09F0054F3B5 /* UIKit.framework */; };
+		218865AE177AA09F0054F3B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218865AD177AA09F0054F3B5 /* Foundation.framework */; };
+		218865B0177AA09F0054F3B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218865AF177AA09F0054F3B5 /* CoreGraphics.framework */; };
+		218865CA177AA09F0054F3B5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218865C9177AA09F0054F3B5 /* SenTestingKit.framework */; };
+		218865CB177AA09F0054F3B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218865AB177AA09F0054F3B5 /* UIKit.framework */; };
+		218865CC177AA09F0054F3B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218865AD177AA09F0054F3B5 /* Foundation.framework */; };
+		218865EB177AA1940054F3B5 /* SAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 218865E2177AA1940054F3B5 /* SAMAppDelegate.m */; };
+		218865EC177AA1940054F3B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 218865E4177AA1940054F3B5 /* main.m */; };
+		218865ED177AA1940054F3B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 218865E7177AA1940054F3B5 /* Default-568h@2x.png */; };
+		218865EF177AA1940054F3B5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 218865E9177AA1940054F3B5 /* Default@2x.png */; };
+		218865FA177AA1B10054F3B5 /* SAMBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 218865F9177AA1B10054F3B5 /* SAMBadgeView.m */; };
+		218865FB177AA3750054F3B5 /* SAMBadgeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 218865F4177AA1990054F3B5 /* SAMBadgeViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		218865CD177AA09F0054F3B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 218865A0177AA09F0054F3B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 218865A7177AA09F0054F3B5;
+			remoteInfo = SAMBadgeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21480D6D177AA93000186127 /* SAMBadgeViewDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMBadgeViewDemoViewController.h; sourceTree = "<group>"; };
+		21480D6E177AA93000186127 /* SAMBadgeViewDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMBadgeViewDemoViewController.m; sourceTree = "<group>"; };
+		218865A8177AA09F0054F3B5 /* SAMBadgeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAMBadgeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		218865AB177AA09F0054F3B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		218865AD177AA09F0054F3B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		218865AF177AA09F0054F3B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		218865C8177AA09F0054F3B5 /* SAMBadgeViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAMBadgeViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		218865C9177AA09F0054F3B5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		218865E1177AA1940054F3B5 /* SAMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMAppDelegate.h; sourceTree = "<group>"; };
+		218865E2177AA1940054F3B5 /* SAMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMAppDelegate.m; sourceTree = "<group>"; };
+		218865E4177AA1940054F3B5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		218865E5177AA1940054F3B5 /* SAMBadgeView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SAMBadgeView-Prefix.pch"; sourceTree = "<group>"; };
+		218865E7177AA1940054F3B5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		218865E9177AA1940054F3B5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		218865EA177AA1940054F3B5 /* SAMBadgeView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SAMBadgeView-Info.plist"; sourceTree = "<group>"; };
+		218865F2177AA1990054F3B5 /* SAMBadgeViewTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SAMBadgeViewTests-Info.plist"; sourceTree = "<group>"; };
+		218865F3177AA1990054F3B5 /* SAMBadgeViewTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMBadgeViewTests.h; sourceTree = "<group>"; };
+		218865F4177AA1990054F3B5 /* SAMBadgeViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMBadgeViewTests.m; sourceTree = "<group>"; };
+		218865F8177AA1B10054F3B5 /* SAMBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMBadgeView.h; sourceTree = "<group>"; };
+		218865F9177AA1B10054F3B5 /* SAMBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMBadgeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		218865A5177AA09F0054F3B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218865AC177AA09F0054F3B5 /* UIKit.framework in Frameworks */,
+				218865AE177AA09F0054F3B5 /* Foundation.framework in Frameworks */,
+				218865B0177AA09F0054F3B5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218865C4177AA09F0054F3B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21480D6C177AA64000186127 /* CoreGraphics.framework in Frameworks */,
+				218865CA177AA09F0054F3B5 /* SenTestingKit.framework in Frameworks */,
+				218865CB177AA09F0054F3B5 /* UIKit.framework in Frameworks */,
+				218865CC177AA09F0054F3B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2188659F177AA09F0054F3B5 = {
+			isa = PBXGroup;
+			children = (
+				218865F7177AA19D0054F3B5 /* SAMBadgeView */,
+				218865E0177AA1940054F3B5 /* Classes */,
+				218865E3177AA1940054F3B5 /* Other Sources */,
+				218865E6177AA1940054F3B5 /* Resources */,
+				218865F1177AA1990054F3B5 /* Tests */,
+				218865AA177AA09F0054F3B5 /* Frameworks */,
+				218865A9177AA09F0054F3B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		218865A9177AA09F0054F3B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				218865A8177AA09F0054F3B5 /* SAMBadgeView.app */,
+				218865C8177AA09F0054F3B5 /* SAMBadgeViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		218865AA177AA09F0054F3B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				218865AB177AA09F0054F3B5 /* UIKit.framework */,
+				218865AD177AA09F0054F3B5 /* Foundation.framework */,
+				218865AF177AA09F0054F3B5 /* CoreGraphics.framework */,
+				218865C9177AA09F0054F3B5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		218865E0177AA1940054F3B5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				218865E1177AA1940054F3B5 /* SAMAppDelegate.h */,
+				218865E2177AA1940054F3B5 /* SAMAppDelegate.m */,
+				21480D6D177AA93000186127 /* SAMBadgeViewDemoViewController.h */,
+				21480D6E177AA93000186127 /* SAMBadgeViewDemoViewController.m */,
+			);
+			name = Classes;
+			path = Example/Classes;
+			sourceTree = "<group>";
+		};
+		218865E3177AA1940054F3B5 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				218865E4177AA1940054F3B5 /* main.m */,
+				218865E5177AA1940054F3B5 /* SAMBadgeView-Prefix.pch */,
+			);
+			name = "Other Sources";
+			path = "Example/Other Sources";
+			sourceTree = "<group>";
+		};
+		218865E6177AA1940054F3B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				218865E7177AA1940054F3B5 /* Default-568h@2x.png */,
+				218865E9177AA1940054F3B5 /* Default@2x.png */,
+				218865EA177AA1940054F3B5 /* SAMBadgeView-Info.plist */,
+			);
+			name = Resources;
+			path = Example/Resources;
+			sourceTree = "<group>";
+		};
+		218865F1177AA1990054F3B5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				218865F2177AA1990054F3B5 /* SAMBadgeViewTests-Info.plist */,
+				218865F3177AA1990054F3B5 /* SAMBadgeViewTests.h */,
+				218865F4177AA1990054F3B5 /* SAMBadgeViewTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		218865F7177AA19D0054F3B5 /* SAMBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				218865F8177AA1B10054F3B5 /* SAMBadgeView.h */,
+				218865F9177AA1B10054F3B5 /* SAMBadgeView.m */,
+			);
+			path = SAMBadgeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		218865A7177AA09F0054F3B5 /* SAMBadgeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218865DA177AA09F0054F3B5 /* Build configuration list for PBXNativeTarget "SAMBadgeView" */;
+			buildPhases = (
+				218865A4177AA09F0054F3B5 /* Sources */,
+				218865A5177AA09F0054F3B5 /* Frameworks */,
+				218865A6177AA09F0054F3B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAMBadgeView;
+			productName = SAMBadgeView;
+			productReference = 218865A8177AA09F0054F3B5 /* SAMBadgeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		218865C7177AA09F0054F3B5 /* SAMBadgeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218865DD177AA09F0054F3B5 /* Build configuration list for PBXNativeTarget "SAMBadgeViewTests" */;
+			buildPhases = (
+				218865C3177AA09F0054F3B5 /* Sources */,
+				218865C4177AA09F0054F3B5 /* Frameworks */,
+				218865C5177AA09F0054F3B5 /* Resources */,
+				218865C6177AA09F0054F3B5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				218865CE177AA09F0054F3B5 /* PBXTargetDependency */,
+			);
+			name = SAMBadgeViewTests;
+			productName = SAMBadgeViewTests;
+			productReference = 218865C8177AA09F0054F3B5 /* SAMBadgeViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		218865A0177AA09F0054F3B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SAM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sam Soffes";
+			};
+			buildConfigurationList = 218865A3177AA09F0054F3B5 /* Build configuration list for PBXProject "SAMBadgeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2188659F177AA09F0054F3B5;
+			productRefGroup = 218865A9177AA09F0054F3B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				218865A7177AA09F0054F3B5 /* SAMBadgeView */,
+				218865C7177AA09F0054F3B5 /* SAMBadgeViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		218865A6177AA09F0054F3B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218865ED177AA1940054F3B5 /* Default-568h@2x.png in Resources */,
+				218865EF177AA1940054F3B5 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218865C5177AA09F0054F3B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		218865C6177AA09F0054F3B5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		218865A4177AA09F0054F3B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21480D6F177AA93000186127 /* SAMBadgeViewDemoViewController.m in Sources */,
+				218865EB177AA1940054F3B5 /* SAMAppDelegate.m in Sources */,
+				218865EC177AA1940054F3B5 /* main.m in Sources */,
+				218865FA177AA1B10054F3B5 /* SAMBadgeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218865C3177AA09F0054F3B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21480D6B177AA5FF00186127 /* SAMBadgeView.m in Sources */,
+				218865FB177AA3750054F3B5 /* SAMBadgeViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		218865CE177AA09F0054F3B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 218865A7177AA09F0054F3B5 /* SAMBadgeView */;
+			targetProxy = 218865CD177AA09F0054F3B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		218865D8177AA09F0054F3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		218865D9177AA09F0054F3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		218865DB177AA09F0054F3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Other Sources/SAMBadgeView-Prefix.pch";
+				INFOPLIST_FILE = "Example/Resources/SAMBadgeView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		218865DC177AA09F0054F3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Other Sources/SAMBadgeView-Prefix.pch";
+				INFOPLIST_FILE = "Example/Resources/SAMBadgeView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		218865DE177AA09F0054F3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SAMBadgeView.app/SAMBadgeView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Other Sources/SAMBadgeView-Prefix.pch";
+				INFOPLIST_FILE = "Tests/SAMBadgeViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		218865DF177AA09F0054F3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SAMBadgeView.app/SAMBadgeView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Other Sources/SAMBadgeView-Prefix.pch";
+				INFOPLIST_FILE = "Tests/SAMBadgeViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		218865A3177AA09F0054F3B5 /* Build configuration list for PBXProject "SAMBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218865D8177AA09F0054F3B5 /* Debug */,
+				218865D9177AA09F0054F3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218865DA177AA09F0054F3B5 /* Build configuration list for PBXNativeTarget "SAMBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218865DB177AA09F0054F3B5 /* Debug */,
+				218865DC177AA09F0054F3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218865DD177AA09F0054F3B5 /* Build configuration list for PBXNativeTarget "SAMBadgeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218865DE177AA09F0054F3B5 /* Debug */,
+				218865DF177AA09F0054F3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 218865A0177AA09F0054F3B5 /* Project object */;
+}
