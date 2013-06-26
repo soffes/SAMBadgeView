@@ -9,3 +9,7 @@ SAMBadgeView is tested on iOS 6 and requires ARC. Released under the [MIT licens
 ![Screenshot](http://soff.me/PtD5/iOS%20Simulator%20Screen%20shot%20Jun%2026,%202013,%201.04.55%20AM.png)
 
 Open up the included Xcode project for an example app and the tests.
+
+## Installation
+
+Simply add the files in the `SAMBadgeView.h` and `SAMBadgeView.m` to your project or add `SAMBadgeView` to your Podfile if you're using CocoaPods.
