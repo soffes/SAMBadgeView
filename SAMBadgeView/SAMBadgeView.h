@@ -68,6 +68,20 @@ typedef NS_ENUM(NSInteger, SAMBadgeViewAlignment) {
 @property (nonatomic, assign) CGFloat cornerRadius;
 
 /**
+ The minimum width used when calculating the size of the badge.
+
+ The default value of this property is 30.
+ */
+@property (nonatomic, assign) CGFloat minWidth;
+
+/**
+ Insets from the edges of the badge text label to the badge's outline.
+
+ The default value of this property is (0, 6, 0, 6).
+ */
+@property (nonatomic, assign) UIEdgeInsets contentInsets;
+
+/**
  The badge's horizontal alignment within the accesoryView frame.
 
  This will position the badge in the view's bounds accordinly.
