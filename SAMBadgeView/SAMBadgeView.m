@@ -143,8 +143,18 @@
 
 
 - (CGSize)sizeThatFits:(CGSize)size {
-	CGSize textSize = [self.textLabel sizeThatFits:self.bounds.size];
-	return CGSizeMake(fmaxf(textSize.width + 12.0f, 30.0f), textSize.height + 8.0f);
+    // Min size of the badge
+	CGFloat minWidth = (self.minWidth < self.cornerRadius * 2) ? (self.cornerRadius * 2) : self.minWidth;
+    CGFloat minHeight = self.cornerRadius * 2;
+
+    // Text size
+    CGSize textSize = [self.textLabel sizeThatFits:self.bounds.size];
+
+    // The size of badge
+    CGFloat width = fmaxf(textSize.width + self.contentInsets.left + self.contentInsets.right, minWidth);
+    CGFloat height = fmaxf(textSize.height + self.contentInsets.top + self.contentInsets.bottom, minHeight);
+
+	return CGSizeMake(width, height);
 }
 
 
@@ -157,6 +167,8 @@
 	self.badgeColor = [[self class] defaultBadgeColor];
 	self.highlightedBadgeColor = [UIColor whiteColor];
 	self.cornerRadius = 10.0f;
+    self.minWidth = 30.0f;
+    self.contentInsets = UIEdgeInsetsMake(0.0f, 6.0f, 0.0f, 6.0f);
 	self.badgeAlignment = SAMBadgeViewAlignmentCenter;
 	self.highlighted = NO;
 }
