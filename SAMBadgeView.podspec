@@ -1,14 +1,14 @@
-Pod::Spec.new do |s|
-  s.name = 'SAMBadgeView'
-  s.version = '0.1.0'
-  s.authors = {'Sam Soffes' => 'sam@soff.es'}
-  s.homepage = 'https://github.com/soffes/SAMBadgeView'
-  s.summary = 'Draw fancy labels like Mail.app.'
-  s.source = {:git => 'https://github.com/soffes/SAMBadgeView.git', :tag => 'v0.1.0'}
-  s.license = { :type => 'MIT', :file => 'LICENSE' }
+Pod::Spec.new do |spec|
+  spec.name = 'SAMBadgeView'
+  spec.version = '0.1.1'
+  spec.authors = {'Sam Soffes' => 'sam@soff.es'}
+  spec.homepage = 'https://github.com/soffes/SAMBadgeView'
+  spec.summary = 'Draw fancy labels like Mail.app.'
+  spec.source = {:git => 'https://github.com/soffes/SAMBadgeView.git', :tag => "v#{spec.version}"}
+  spec.license = { :type => 'MIT', :file => 'LICENSE' }
 
-  s.platform = :ios
-  s.requires_arc = true
-  s.frameworks = 'UIKit', 'CoreGraphics'
-  s.source_files = 'SAMBadgeView'
+  spec.platform = :ios
+  spec.requires_arc = true
+  spec.frameworks = 'UIKit', 'CoreGraphics'
+  spec.source_files = 'SAMBadgeView'
 end
