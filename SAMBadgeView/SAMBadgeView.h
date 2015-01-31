@@ -6,6 +6,8 @@
 //  Copyright 2011-2013 Sam Soffes. All rights reserved.
 //
 
+@import UIKit;
+
 /**
  Options for aligning the badge horizontally.
  */
@@ -37,7 +39,7 @@ typedef NS_ENUM(NSInteger, SAMBadgeViewAlignment) {
 /**
  The badge text label.
  */
-@property (nonatomic, strong, readonly) UILabel *textLabel;
+@property (nonatomic, readonly) UILabel *textLabel;
 
 
 ///-------------------------------------
@@ -51,35 +53,35 @@ typedef NS_ENUM(NSInteger, SAMBadgeViewAlignment) {
 
  @see defaultBadgeColor
  */
-@property (nonatomic, strong) UIColor *badgeColor;
+@property (nonatomic) UIColor *badgeColor;
 
 /**
  The badge's background color while its cell is highlighted.
 
  The default value of this property is white.
  */
-@property (nonatomic, strong) UIColor *highlightedBadgeColor;
+@property (nonatomic) UIColor *highlightedBadgeColor;
 
 /**
  The corner radius used when rendering the badge's outline.
 
  The default value of this property is 10.
  */
-@property (nonatomic, assign) CGFloat cornerRadius;
+@property (nonatomic) CGFloat cornerRadius;
 
 /**
  The minimum width used when calculating the size of the badge.
 
  The default value of this property is 30.
  */
-@property (nonatomic, assign) CGFloat minWidth;
+@property (nonatomic) CGFloat minWidth;
 
 /**
  Insets from the edges of the badge text label to the badge's outline.
 
  The default value of this property is (0, 6, 0, 6).
  */
-@property (nonatomic, assign) UIEdgeInsets contentInsets;
+@property (nonatomic) UIEdgeInsets contentInsets;
 
 /**
  The badge's horizontal alignment within the accesoryView frame.
@@ -88,7 +90,7 @@ typedef NS_ENUM(NSInteger, SAMBadgeViewAlignment) {
 
  The default value of this property is `SSBadgeViewAlignmentCenter`.
  */
-@property (nonatomic, assign) SAMBadgeViewAlignment badgeAlignment;
+@property (nonatomic) SAMBadgeViewAlignment badgeAlignment;
 
 /**
  A Boolean value indicating whether the receiver should be drawn with a highlight.
@@ -97,7 +99,7 @@ typedef NS_ENUM(NSInteger, SAMBadgeViewAlignment) {
 
  The default value of this property is `NO`.
  */
-@property (nonatomic, assign, getter=isHighlighted) BOOL highlighted;
+@property (nonatomic, getter=isHighlighted) BOOL highlighted;
 
 
 ///---------------------
@@ -111,7 +113,7 @@ typedef NS_ENUM(NSInteger, SAMBadgeViewAlignment) {
 
  Setting a strechable image for this property is recommended.
  */
-@property (nonatomic, strong) UIImage *badgeImage;
+@property (nonatomic) UIImage *badgeImage;
 
 /**
  The badge's background image while its cell is highlighted.
@@ -120,7 +122,7 @@ typedef NS_ENUM(NSInteger, SAMBadgeViewAlignment) {
 
  Setting a strechable image for this property is recommended.
  */
-@property (nonatomic, strong) UIImage *highlightedBadgeImage;
+@property (nonatomic) UIImage *highlightedBadgeImage;
 
 
 ///---------------

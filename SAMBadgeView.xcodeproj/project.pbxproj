@@ -204,7 +204,7 @@
 			name = SAMBadgeViewTests;
 			productName = SAMBadgeViewTests;
 			productReference = 218865C8177AA09F0054F3B5 /* SAMBadgeViewTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -215,6 +215,11 @@
 				CLASSPREFIX = SAM;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Sam Soffes";
+				TargetAttributes = {
+					218865A7177AA09F0054F3B5 = {
+						DevelopmentTeam = UP9C8XM22A;
+					};
+				};
 			};
 			buildConfigurationList = 218865A3177AA09F0054F3B5 /* Build configuration list for PBXProject "SAMBadgeView" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -307,6 +312,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -338,6 +344,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
