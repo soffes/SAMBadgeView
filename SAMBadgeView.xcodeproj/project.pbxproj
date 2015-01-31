@@ -13,7 +13,6 @@
 		218865AC177AA09F0054F3B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218865AB177AA09F0054F3B5 /* UIKit.framework */; };
 		218865AE177AA09F0054F3B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218865AD177AA09F0054F3B5 /* Foundation.framework */; };
 		218865B0177AA09F0054F3B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218865AF177AA09F0054F3B5 /* CoreGraphics.framework */; };
-		218865CA177AA09F0054F3B5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218865C9177AA09F0054F3B5 /* SenTestingKit.framework */; };
 		218865CB177AA09F0054F3B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218865AB177AA09F0054F3B5 /* UIKit.framework */; };
 		218865CC177AA09F0054F3B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218865AD177AA09F0054F3B5 /* Foundation.framework */; };
 		218865EB177AA1940054F3B5 /* SAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 218865E2177AA1940054F3B5 /* SAMAppDelegate.m */; };
@@ -41,8 +40,7 @@
 		218865AB177AA09F0054F3B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		218865AD177AA09F0054F3B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		218865AF177AA09F0054F3B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		218865C8177AA09F0054F3B5 /* SAMBadgeViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAMBadgeViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		218865C9177AA09F0054F3B5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		218865C8177AA09F0054F3B5 /* SAMBadgeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAMBadgeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		218865E1177AA1940054F3B5 /* SAMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMAppDelegate.h; sourceTree = "<group>"; };
 		218865E2177AA1940054F3B5 /* SAMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMAppDelegate.m; sourceTree = "<group>"; };
 		218865E4177AA1940054F3B5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,7 +49,6 @@
 		218865E9177AA1940054F3B5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		218865EA177AA1940054F3B5 /* SAMBadgeView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SAMBadgeView-Info.plist"; sourceTree = "<group>"; };
 		218865F2177AA1990054F3B5 /* SAMBadgeViewTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SAMBadgeViewTests-Info.plist"; sourceTree = "<group>"; };
-		218865F3177AA1990054F3B5 /* SAMBadgeViewTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMBadgeViewTests.h; sourceTree = "<group>"; };
 		218865F4177AA1990054F3B5 /* SAMBadgeViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMBadgeViewTests.m; sourceTree = "<group>"; };
 		218865F8177AA1B10054F3B5 /* SAMBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMBadgeView.h; sourceTree = "<group>"; };
 		218865F9177AA1B10054F3B5 /* SAMBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMBadgeView.m; sourceTree = "<group>"; };
@@ -73,7 +70,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				21480D6C177AA64000186127 /* CoreGraphics.framework in Frameworks */,
-				218865CA177AA09F0054F3B5 /* SenTestingKit.framework in Frameworks */,
 				218865CB177AA09F0054F3B5 /* UIKit.framework in Frameworks */,
 				218865CC177AA09F0054F3B5 /* Foundation.framework in Frameworks */,
 			);
@@ -99,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				218865A8177AA09F0054F3B5 /* SAMBadgeView.app */,
-				218865C8177AA09F0054F3B5 /* SAMBadgeViewTests.octest */,
+				218865C8177AA09F0054F3B5 /* SAMBadgeViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,7 +106,6 @@
 				218865AB177AA09F0054F3B5 /* UIKit.framework */,
 				218865AD177AA09F0054F3B5 /* Foundation.framework */,
 				218865AF177AA09F0054F3B5 /* CoreGraphics.framework */,
-				218865C9177AA09F0054F3B5 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				218865F2177AA1990054F3B5 /* SAMBadgeViewTests-Info.plist */,
-				218865F3177AA1990054F3B5 /* SAMBadgeViewTests.h */,
 				218865F4177AA1990054F3B5 /* SAMBadgeViewTests.m */,
 			);
 			path = Tests;
@@ -203,8 +197,8 @@
 			);
 			name = SAMBadgeViewTests;
 			productName = SAMBadgeViewTests;
-			productReference = 218865C8177AA09F0054F3B5 /* SAMBadgeViewTests.octest */;
-			productType = "com.apple.product-type.bundle.ocunit-test";
+			productReference = 218865C8177AA09F0054F3B5 /* SAMBadgeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -213,6 +207,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SAM;
+				LastTestingUpgradeCheck = 0620;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Sam Soffes";
 				TargetAttributes = {
@@ -397,13 +392,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Other Sources/SAMBadgeView-Prefix.pch";
 				INFOPLIST_FILE = "Tests/SAMBadgeViewTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -414,13 +409,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Other Sources/SAMBadgeView-Prefix.pch";
 				INFOPLIST_FILE = "Tests/SAMBadgeViewTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};

@@ -6,10 +6,11 @@
 //  Copyright (c) 2013 Sam Soffes. All rights reserved.
 //
 
-#import "SAMBadgeViewTests.h"
+@import XCTest;
+
 #import "SAMBadgeView.h"
 
-@interface SAMBadgeViewTests ()
+@interface SAMBadgeViewTests : XCTestCase
 @property (nonatomic, strong) SAMBadgeView *badgeView;
 @end
 
@@ -23,13 +24,13 @@
 
 - (void)testHidingWithoutText {
     self.badgeView.textLabel.text = @"42";
-	STAssertFalse(self.badgeView.hidden, nil);
+	XCTAssertFalse(self.badgeView.hidden);
 
 	self.badgeView.textLabel.text = nil;
-	STAssertTrue(self.badgeView.hidden, nil);
+	XCTAssertTrue(self.badgeView.hidden);
 
 	self.badgeView.textLabel.text = @"";
-	STAssertTrue(self.badgeView.hidden, nil);
+	XCTAssertTrue(self.badgeView.hidden);
 }
 
 @end
